@@ -1,3 +1,5 @@
-let x : number = 5;
+let x : number| string= 5;
+
+x = "harkirat";
 
 console.log(x);
