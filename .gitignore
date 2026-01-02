@@ -1,0 +1,14 @@
+# Node
+node_modules/
+
+# Ignore compiled JS next to TS
+*.js
+*.js.map
+
+# But allow config JS files
+!*.config.js
+!vite.config.js
+!eslint.config.js
+
+# TS cache
+*.tsbuildinfo
