@@ -9,6 +9,9 @@ node_modules/
 !*.config.js
 !vite.config.js
 !eslint.config.js
+*.d.ts
+*.d.ts.map
+
 
 # TS cache
 *.tsbuildinfo
