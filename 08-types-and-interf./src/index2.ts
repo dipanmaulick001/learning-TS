@@ -10,8 +10,12 @@ function abcd(user : UserType){
     console.log(`Hello you are  ${user.age} years old`)
 }
 
+
+
 let user : UserType= {
     firstName : "john",
     lastName : "singh",
     age : 23
 }
+
+abcd(user);
