@@ -5,7 +5,7 @@ interface User{
     age : number
 }
 
-function isLegal(user: User){ //taking the user object as an input
+function isLegal(user: User) : boolean{ //taking the user object as an input
     if (user.age > 18){
         return true
     }else{
@@ -14,7 +14,7 @@ function isLegal(user: User){ //taking the user object as an input
 }
 
 
-let user = {
+let user : User = {
     firstName : "harun",
     lastName : "Ranjan",
     age : 21
