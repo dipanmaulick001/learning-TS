@@ -14,4 +14,4 @@ let user : Readonly<User> = {
     id : 61200017965
 }
 
-user.age = 18 //cannot because it is readonly 
+//user.age = 18 //cannot because it is readonly 
